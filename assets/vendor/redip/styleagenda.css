@@ -1,0 +1,72 @@
+/*
+
+Darko Bunic
+http://www.redips.net/
+Mar, 2020.
+
+*/
+body {
+	font-family: arial;
+	margin: 0px;
+}
+
+/* header */
+div#header {
+	text-align: center;
+	margin-top: 50px;
+}
+
+/* container with ol element in center */
+#container {
+	margin: auto;
+	width: 400px;
+}
+
+/* ordered list */
+ol#list li {
+	margin-bottom: 10px;
+}
+
+
+.horarios td {
+        
+	width: 700px;
+	text-align: left;
+	font-size: 10pt;
+	border: 1px solid #DDC5B5;
+	cursor: pointer;
+}
+.horarios p {
+	margin: 0.3em 0.3em 0.3em 0.3em;
+}
+
+#tbPonencia p {
+	margin: 0.3em 0.3em 0.3em 0.3em;
+}
+
+.redips-mark {
+	color: #444;
+	background-color: #FFFFFF;
+}
+
+
+/* table cells */
+#tbPonencia td {
+	width: 600px;
+	text-align: left;
+	font-size: 10pt;
+	padding: 1px;
+	border: 1px solid #DDC5B5;
+	
+}
+
+
+.my-custom-scrollbar {
+	position: relative;
+	height: 500px;
+	overflow: auto ;
+}
+
+.table-wrapper-scroll-y {
+	display: block;
+}

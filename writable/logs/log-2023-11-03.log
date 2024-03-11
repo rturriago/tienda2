@@ -1,0 +1,420 @@
+CRITICAL - 2023-11-03 02:09:51 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\lugarturistico\add.php on line 28.
+ 1 APPPATH\Views\lugarturistico\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lugarturistico/add', [], true)
+ 5 APPPATH\Controllers\LugarTuristico.php(24): view('lugarturistico/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewAddLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 02:09:55 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\lugarturistico\add.php on line 28.
+ 1 APPPATH\Views\lugarturistico\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lugarturistico/add', [], true)
+ 5 APPPATH\Controllers\LugarTuristico.php(24): view('lugarturistico/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewAddLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 02:10:13 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\lugarturistico\add.php on line 28.
+ 1 APPPATH\Views\lugarturistico\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lugarturistico/add', [], true)
+ 5 APPPATH\Controllers\LugarTuristico.php(24): view('lugarturistico/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewAddLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 02:10:15 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\lugarturistico\add.php on line 28.
+ 1 APPPATH\Views\lugarturistico\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lugarturistico/add', [], true)
+ 5 APPPATH\Controllers\LugarTuristico.php(24): view('lugarturistico/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewAddLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 02:10:55 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\lugarturistico\add.php on line 28.
+ 1 APPPATH\Views\lugarturistico\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lugarturistico/add', [], true)
+ 5 APPPATH\Controllers\LugarTuristico.php(24): view('lugarturistico/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewAddLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 02:10:56 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\lugarturistico\add.php on line 28.
+ 1 APPPATH\Views\lugarturistico\add.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php', 28)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\lugarturistico\\add.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('lugarturistico/add', [], true)
+ 5 APPPATH\Controllers\LugarTuristico.php(24): view('lugarturistico/add')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewAddLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 15:55:21 --> App\Controllers\SubCategoria::viewEditSubCategoria(): Return value must be of type string, none returned
+in APPPATH\Controllers\SubCategoria.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->viewEditSubCategoria('33')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:45:05 --> syntax error, unexpected token "=", expecting "]"
+in APPPATH\Controllers\LugarTuristico.php on line 117.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 20:48:20 --> syntax error, unexpected token "{", expecting "]"
+in APPPATH\Controllers\LugarTuristico.php on line 117.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:16:36 --> Undefined property: App\Controllers\LugarTuristico::$load
+in APPPATH\Controllers\LugarTuristico.php on line 145.
+ 1 APPPATH\Controllers\LugarTuristico.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LugarTuristico::$load', 'C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:17:18 --> Undefined property: App\Controllers\LugarTuristico::$load
+in APPPATH\Controllers\LugarTuristico.php on line 145.
+ 1 APPPATH\Controllers\LugarTuristico.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\LugarTuristico::$load', 'C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php', 145)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:35:50 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\LugarTuristico.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:36:15 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\LugarTuristico.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 21:36:35 --> Call to a member function getName() on null
+in APPPATH\Controllers\LugarTuristico.php on line 142.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:06:05 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', '1699049165_9d4f69bba93517166a80.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(140): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:06:18 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', '1699049178_0e92f0f58be5f637df11.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(140): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:10:19 --> Call to a member function hasMoved() on null
+in APPPATH\Controllers\LugarTuristico.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:11:33 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', '1699049493_b950c187234bf85a2fba.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:11:43 --> Undefined variable $img
+in APPPATH\Controllers\LugarTuristico.php on line 143.
+ 1 APPPATH\Controllers\LugarTuristico.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $img', 'C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php', 143)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:16:01 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699049761_2dcd9aa5485332ca38ea.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:54:42 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/', '1699052082_e5ea32d60277fbe8c512.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:58:05 --> Undefined variable $imageFile
+in APPPATH\Controllers\LugarTuristico.php on line 140.
+ 1 APPPATH\Controllers\LugarTuristico.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $imageFile', 'C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:58:29 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/', '1699052309_995d8e80ab0f3ca5a609.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs/', '1699052309_995d8e80ab0f3ca5a609.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:59:09 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052349_fdb1ec0f310e278f89d3.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052349_fdb1ec0f310e278f89d3.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:59:46 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/', '1699052386_64ef93f973025468b556.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/', '1699052386_64ef93f973025468b556.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 22:59:51 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052391_eb3bd439ff8963c82ef8.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052391_eb3bd439ff8963c82ef8.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:00:19 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699052419_7d6ec19e43b955f8a24f.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699052419_7d6ec19e43b955f8a24f.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:01:23 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699052483_af70f7fa2a3a0bc5b6db.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699052483_af70f7fa2a3a0bc5b6db.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:02:43 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699052563_db48c34c85edaaab14d7.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699052563_db48c34c85edaaab14d7.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:03:15 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052595_d6f1b21d24f343a585e2.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(141): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052595_d6f1b21d24f343a585e2.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:04:07 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052647_bb0ff62b16260b3a0ca0.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(142): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052647_bb0ff62b16260b3a0ca0.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:06:03 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052763_97e844d8f9331c8e8a12.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(142): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\assets\\imgs\\logos_gifs\\/', '1699052763_97e844d8f9331c8e8a12.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:06:12 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/', '1699052772_ef3c6c577f293f52f2bb.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(142): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\\\assets\\imgs\\logos_gifs\\/', '1699052772_ef3c6c577f293f52f2bb.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:09:10 --> mkdir(): No such file or directory
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 185.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No such file or directory', 'C:\\xampp\\htdocs\\turismo\\system\\HTTP\\Files\\UploadedFile.php', 185)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(185): mkdir('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', 511, true)
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(139): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/')
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(359): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\writable\\uploads/C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', '1699052950_f74db85f0e467dae0e4a.png')
+ 5 APPPATH\Controllers\LugarTuristico.php(142): CodeIgniter\HTTP\Files\UploadedFile->store('C:\\xampp\\htdocs\\turismo\\writable\\assets/imgs/logos_gifs/', '1699052950_f74db85f0e467dae0e4a.png')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:10:50 --> Call to undefined function App\Controllers\store()
+in APPPATH\Controllers\LugarTuristico.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:11:08 --> Call to undefined function App\Controllers\store()
+in APPPATH\Controllers\LugarTuristico.php on line 140.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:15:58 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LugarTuristico.php on line 145.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:16:04 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LugarTuristico.php on line 145.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:16:27 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LugarTuristico.php on line 145.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:16:46 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LugarTuristico.php on line 145.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:17:46 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LugarTuristico.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:19:09 --> syntax error, unexpected token ","
+in APPPATH\Controllers\LugarTuristico.php on line 147.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:21:08 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\LugarTuristico.php(146): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699053668_44730cdbc68c63463881.png')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:26:58 --> The uploaded file has already been moved.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 142.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(142): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+ 2 APPPATH\Controllers\LugarTuristico.php(146): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\turismo\\assets/imgs/logos_gifs/', '1699054018_dbca11343b6eeb777385.png')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->insertLugarTuristico()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-03 23:57:00 --> Unclosed '[' does not match ')'
+in APPPATH\Controllers\LugarTuristico.php on line 148.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\turismo\\app\\Controllers\\LugarTuristico.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LugarTuristico')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LugarTuristico')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\LugarTuristico', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,36 @@
+CRITICAL - 2024-02-23 04:10:40 --> Class "App\Validation\Userrules" not found
+in SYSTEMPATH\Validation\Validation.php on line 694.
+ 1 SYSTEMPATH\Validation\Validation.php(120): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Config\Services.php(818): CodeIgniter\Validation\Validation->__construct(Object(Config\Validation), Object(CodeIgniter\View\View))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 4 SYSTEMPATH\BaseModel.php(332): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 5 SYSTEMPATH\Model.php(155): CodeIgniter\BaseModel->__construct(null)
+ 6 APPPATH\Controllers\Producto.php(96): CodeIgniter\Model->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Producto->deleteProducto('65')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 04:12:49 --> Class "App\Validation\Userrules" not found
+in SYSTEMPATH\Validation\Validation.php on line 694.
+ 1 SYSTEMPATH\Validation\Validation.php(120): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Config\Services.php(818): CodeIgniter\Validation\Validation->__construct(Object(Config\Validation), Object(CodeIgniter\View\View))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 4 SYSTEMPATH\BaseModel.php(332): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 5 SYSTEMPATH\Model.php(155): CodeIgniter\BaseModel->__construct(null)
+ 6 APPPATH\Controllers\Producto.php(96): CodeIgniter\Model->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Producto->deleteProducto('65')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-23 04:12:50 --> Class "App\Validation\Userrules" not found
+in SYSTEMPATH\Validation\Validation.php on line 694.
+ 1 SYSTEMPATH\Validation\Validation.php(120): CodeIgniter\Validation\Validation->loadRuleSets()
+ 2 SYSTEMPATH\Config\Services.php(818): CodeIgniter\Validation\Validation->__construct(Object(Config\Validation), Object(CodeIgniter\View\View))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::validation(Object(Config\Validation), false)
+ 4 SYSTEMPATH\BaseModel.php(332): CodeIgniter\Config\BaseService::__callStatic('validation', [...])
+ 5 SYSTEMPATH\Model.php(155): CodeIgniter\BaseModel->__construct(null)
+ 6 APPPATH\Controllers\Producto.php(96): CodeIgniter\Model->__construct()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Producto->deleteProducto('65')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

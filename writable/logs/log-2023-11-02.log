@@ -1,0 +1,72 @@
+CRITICAL - 2023-11-02 04:53:26 --> Undefined variable $descripcion
+in APPPATH\Views\subcategoria\listado.php on line 105.
+ 1 APPPATH\Views\subcategoria\listado.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descripcion', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/listado', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(19): view('subcategoria/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 04:53:28 --> Undefined variable $descripcion
+in APPPATH\Views\subcategoria\listado.php on line 105.
+ 1 APPPATH\Views\subcategoria\listado.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descripcion', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/listado', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(19): view('subcategoria/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 04:54:44 --> Undefined variable $descripcion
+in APPPATH\Views\subcategoria\listado.php on line 105.
+ 1 APPPATH\Views\subcategoria\listado.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descripcion', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/listado', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(19): view('subcategoria/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-02 04:56:39 --> Undefined variable $descripcion
+in APPPATH\Views\subcategoria\listado.php on line 105.
+ 1 APPPATH\Views\subcategoria\listado.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $descripcion', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/listado', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(19): view('subcategoria/listado')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-02 20:21:03 --> mysqli_sql_exception: Table 'gad_quevedo_turismo.categoria' doesn't exist in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT Concat('...', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Concat('...')
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Concat('...')
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(32): App\Models\lugarturistico_model->execQuery('SELECT Concat('...')
+#5 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(46): App\Models\lugarturistico_model->getListado()
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->getjson_ListadoLugares()
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#8 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-02 20:21:03 --> Table 'gad_quevedo_turismo.categoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',l.id) as dt_rowid, sc.id, sc.descripcion as subcategoria, c.descripcion as categoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id
+        order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 2 APPPATH\Models\lugarturistico_model.php(32): App\Models\lugarturistico_model->execQuery('SELECT Concat(\'r_\',l.id) as dt_rowid, sc.id, sc.descripcion as subcategoria, c.descripcion as categoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id
+        order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 3 APPPATH\Controllers\LugarTuristico.php(46): App\Models\lugarturistico_model->getListado()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->getjson_ListadoLugares()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,11 @@
+CRITICAL - 2024-03-11 04:15:06 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\producto\listitemcarts.php on line 3.
+ 1 APPPATH\Views\producto\listitemcarts.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\xampp\\htdocs\\tienda\\app\\Views\\producto\\listitemcarts.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\tienda\\app\\Views\\producto\\listitemcarts.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('producto/listitemcarts', [], true)
+ 5 APPPATH\Controllers\Carrito.php(19): view('producto/listitemcarts', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Carrito->viewProductosGrid()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

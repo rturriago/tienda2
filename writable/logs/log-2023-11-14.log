@@ -1,0 +1,24 @@
+CRITICAL - 2023-11-14 02:20:58 --> Unsupported operand types: string + string
+in APPPATH\Controllers\LugarTuristico.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:21:03 --> Unsupported operand types: string + string
+in APPPATH\Controllers\LugarTuristico.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('2', '0', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:21:04 --> Unsupported operand types: string + string
+in APPPATH\Controllers\LugarTuristico.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('2', '12', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-14 02:21:26 --> Unsupported operand types: string + string
+in APPPATH\Controllers\LugarTuristico.php on line 78.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

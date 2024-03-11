@@ -1,0 +1,110 @@
+CRITICAL - 2024-02-10 15:12:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 194.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-10 15:12:30 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 194.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-10 16:40:35 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2024-02-10 15:41:41 --> mysqli_sql_exception: Table 'tienda.categoria' doesn't exist in C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT Concat('...', 0)
+#1 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Concat('...')
+#2 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Concat('...')
+#3 C:\xampp\htdocs\tienda\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\tienda\app\Controllers\Categoria.php(16): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-10 15:41:41 --> Table 'tienda.categoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id_categoria) as dt_rowid, id_categoria, nombre_categoria as descripcion  FROM categoria  order by id_categoria;')
+ 2 APPPATH\Controllers\Categoria.php(16): App\Models\categoria_model->getListado()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-10 15:42:03 --> mysqli_sql_exception: Table 'tienda.categoria' doesn't exist in C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT Concat('...', 0)
+#1 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Concat('...')
+#2 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Concat('...')
+#3 C:\xampp\htdocs\tienda\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\tienda\app\Controllers\Categoria.php(16): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-10 15:42:03 --> Table 'tienda.categoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id_categoria) as dt_rowid, id_categoria, nombre_categoria as descripcion  FROM categoria  order by id_categoria;')
+ 2 APPPATH\Controllers\Categoria.php(16): App\Models\categoria_model->getListado()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-10 15:42:05 --> mysqli_sql_exception: Table 'tienda.categoria' doesn't exist in C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT Concat('...', 0)
+#1 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Concat('...')
+#2 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Concat('...')
+#3 C:\xampp\htdocs\tienda\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\tienda\app\Controllers\Categoria.php(16): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-10 15:42:05 --> Table 'tienda.categoria' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id_categoria) as dt_rowid, id_categoria, nombre_categoria as descripcion  FROM categoria  order by id_categoria;')
+ 2 APPPATH\Controllers\Categoria.php(16): App\Models\categoria_model->getListado()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:03:23 --> Too few arguments to function App\Controllers\Marca::getjson_ListadoMarcasCB(), 0 passed in C:\xampp\htdocs\tienda\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Marca.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Marca->getjson_ListadoMarcasCB()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marca))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:04:27 --> Class "App\Controllers\categoria_model" not found
+in APPPATH\Controllers\Marca.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Marca->getjson_ListadoMarcasCB('')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Marca))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-10 16:19:03 --> Class "App\Models\producto_model" not found
+in APPPATH\Controllers\Producto.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Producto->getjson_ListadoProductos('')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-02-10 16:56:58 --> mysqli_sql_exception: Column 'descripcion' in field list is ambiguous in C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\tienda\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT Concat('...', 0)
+#1 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Concat('...')
+#2 C:\xampp\htdocs\tienda\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Concat('...')
+#3 C:\xampp\htdocs\tienda\app\Models\producto_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\tienda\app\Controllers\Producto.php(16): App\Models\producto_model->getListado()
+#5 C:\xampp\htdocs\tienda\system\CodeIgniter.php(942): App\Controllers\Producto->getjson_ListadoProductos('data')
+#6 C:\xampp\htdocs\tienda\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+#7 C:\xampp\htdocs\tienda\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tienda\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-02-10 16:56:58 --> Column 'descripcion' in field list is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\producto_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id) as dt_rowid, c.nombre_categoria as idcategoria, idmarca, descripcion, precio, pvp, impuesto 
+         FROM producto p, categorias c, marcas m where p.idcategoria = c.id_categoria and p.idmarca = m.id_marca  order by id;')
+ 2 APPPATH\Controllers\Producto.php(16): App\Models\producto_model->getListado()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Producto->getjson_ListadoProductos('data')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

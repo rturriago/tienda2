@@ -1,0 +1,679 @@
+CRITICAL - 2024-01-27 17:12:34 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 194.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-27 17:12:34 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 194.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-01-27 17:12:34 --> Maximum execution time of 120 seconds exceeded
+in SYSTEMPATH\Debug\Exceptions.php on line 194.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2024-01-27 17:12:34 --> Error connecting to the database: ErrorException: mysqli::real_connect(): Error while reading greeting packet. PID=1404 in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli::real_co...', 'C:\\xampp\\htdocs...', 184)
+#1 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#3 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#5 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#7 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#8 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#9 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#10 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#11 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#13 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#14 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#16 {main}
+
+Next mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#8 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#9 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#10 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#13 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: MySQL server has gone away in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#8 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-01-27 17:12:34 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `cedula` = :cedula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', [...], null, 'cedula')
+ 7 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Usuario.php(35): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->login()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 18:02:44 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205127548', 'cedula', Array, NULL, 'cedula')
+#8 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205127548', Array, Array)
+#9 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#10 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#13 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205127548', 'cedula', Array, NULL, 'cedula')
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205127548', Array, Array)
+#8 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-01-27 18:02:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `cedula` = :cedula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205127548', 'cedula', [...], null, 'cedula')
+ 7 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205127548', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Usuario.php(35): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->login()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 18:02:50 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#8 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#9 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#10 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#13 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#8 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-01-27 18:02:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `cedula` = :cedula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', [...], null, 'cedula')
+ 7 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Usuario.php(35): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->login()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:43:20 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#5 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#8 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-27 19:43:20 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#3 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#4 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-27 19:43:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 3 APPPATH\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 4 APPPATH\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 19:43:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id) as dt_rowid, id, descripcion  FROM categoria_lugar  order by id;')
+ 3 APPPATH\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:43:23 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#5 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#8 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-27 19:43:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 3 APPPATH\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 4 APPPATH\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:43:23 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#3 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#4 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-27 19:43:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id) as dt_rowid, id, descripcion  FROM categoria_lugar  order by id;')
+ 3 APPPATH\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:43:24 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#5 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#8 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-27 19:43:24 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#3 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#4 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-27 19:43:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 3 APPPATH\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 4 APPPATH\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 19:43:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id) as dt_rowid, id, descripcion  FROM categoria_lugar  order by id;')
+ 3 APPPATH\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:43:28 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#8 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#9 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#10 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#13 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#8 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-01-27 19:43:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `cedula` = :cedula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', [...], null, 'cedula')
+ 7 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Usuario.php(35): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->login()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:45:05 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#5 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#8 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-27 19:45:05 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#3 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#4 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-01-27 19:45:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 3 APPPATH\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 4 APPPATH\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 19:45:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id) as dt_rowid, id, descripcion  FROM categoria_lugar  order by id;')
+ 3 APPPATH\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:45:08 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat('...')
+#3 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+#4 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2024-01-27 19:45:08 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#5 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#8 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as ...')
+#3 C:\xampp\htdocs\turismo\app\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as ...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-27 19:45:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\categoria_model.php(23): CodeIgniter\Database\BaseConnection->query('SELECT Concat(\'r_\',id) as dt_rowid, id, descripcion  FROM categoria_lugar  order by id;')
+ 3 APPPATH\Controllers\Categoria.php(46): App\Models\categoria_model->getListado()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias('')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-27 19:45:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\lugarturistico_model.php(17): CodeIgniter\Database\BaseConnection->query('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 3 APPPATH\Models\lugarturistico_model.php(62): App\Models\lugarturistico_model->execQuery('SELECT c.id as categoria_id, c.descripcion as categoria, sc.descripcion as subcategoria, l.*
+        FROM lugar_turistico l, subcategoria_lugar sc, categoria_lugar c
+        WHERE sc.id = l.subcategoria_id and c.id = sc.categoria_id  order by c.descripcion, sc.descripcion, l.nombre_lugar')
+ 4 APPPATH\Controllers\LugarTuristico.php(76): App\Models\lugarturistico_model->getListadoGrid('0', '0')
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\LugarTuristico->viewLugarTuristicoGrid('0', '0', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LugarTuristico))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-27 19:54:28 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'gad_quevedo_tur...', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#8 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#9 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#10 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#13 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\turismo\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\turismo\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\turismo\app\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\turismo\system\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', Array, NULL, 'cedula')
+#7 C:\xampp\htdocs\turismo\system\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', Array, Array)
+#8 C:\xampp\htdocs\turismo\system\Controller.php(152): CodeIgniter\Validation\Validation->run()
+#9 C:\xampp\htdocs\turismo\app\Controllers\Usuario.php(35): CodeIgniter\Controller->validate(Array, Array)
+#10 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Usuario->login()
+#11 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+#12 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2024-01-27 19:54:28 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `usuario`
+WHERE `cedula` = :cedula:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Validation\Userrules.php(24): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\Validation\Validation.php(311): App\Validation\Userrules->existsUser('1205150087', 'cedula', [...], null, 'cedula')
+ 7 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules('cedula', 'cedula', '1205150087', [...], [...])
+ 8 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\Usuario.php(35): CodeIgniter\Controller->validate([...], [...])
+10 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Usuario->login()
+11 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario))
+12 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

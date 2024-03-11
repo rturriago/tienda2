@@ -1,0 +1,281 @@
+/* 
+    Created on : 14 ago 2022, 15:22:55
+    Author     : Ryan-
+*/
+
+@font-face {
+    font-family: 'open-sans-light';
+    src: url('../fonts/OpenSans-Light.eot?v=4.7.0');
+    /* IE9 Compat Modes */
+    src: url('../fonts/OpenSans-Light?#iefix&v=4.7.0') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/OpenSans-Light.woff2?v=4.7.0') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/OpenSans-Light.woff?v=4.7.0') format('woff'),
+        /* Pretty Modern Browsers */
+        url('../fonts/OpenSans-Light.ttf?v=4.7.0') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/OpenSans-Light.svg?v=4.7.0#OpenSans-Light') format('svg');
+    /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*html {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.footer-page{
+    font-family: 'open-sans-light';
+    background: #025a27 !important;
+    color: white;
+    border-top: 7px solid rgba(236, 185, 50, 1);
+    
+    
+}
+
+
+.footer-page #copyr-text{
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-page .icons-ns{
+    text-decoration: none;
+}
+
+.footer-page .icons-ns:hover,
+.footer-page .icons-ns:active,
+.footer-page .icons-ns:focus{
+    color: rgba(236, 185, 50, 1) !important;
+    /*border: 2px solid #FFF;*/
+    font-size: 15px;
+
+}
+
+.form-login{
+    border: 1px solid #f6f6f6;
+
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+
+    /*box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;*/
+
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;*/
+
+    /*box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;*/
+
+    /*box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;*/
+
+    /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;*/
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    border-radius: 5px;
+
+}
+
+.form-login .form-select {
+    border: 1px solid rgba(236, 185, 50, 1);
+    padding: 8px 15px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px !important;
+    font-weight: 300;
+    font-family: 'open-sans-light';
+    color: #2D2D2D;
+    background-color: #FFF;
+}
+
+.form-login .form-select:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #008B3A;
+    outline-width: 0;
+    font-weight: 400;
+    background-color: white;
+}
+
+.form-login input{
+    padding: 8px 15px;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(236, 185, 50, 1);
+    font-size: 14px !important;
+    font-weight: 300;
+    font-family: 'open-sans-light';
+    color: #2D2D2D;
+    background-color: #FFF;
+}
+
+.form-login input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #008B3A;
+    outline-width: 0;
+    font-weight: 400;
+    background-color: white;
+}
+
+#button-reg {
+    font-family: 'open-sans-light';
+    font-size: 14px !important;
+    font-weight: 600;
+    height: 43px;
+    width: 180px;
+    cursor: pointer;
+    background-color: #025a27 !important;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 4px;
+}
+
+#button-canc {
+    font-family: 'open-sans-light';
+    font-size: 14px !important;
+    font-weight: 600;
+    height: 43px;
+    width: 180px;
+    cursor: pointer;
+    background-color: #2D2D2D !important;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    margin: 4px;
+}
+
+#button-obt-clave {
+    font-family: 'open-sans-light';
+    font-size: 14px !important;
+    font-weight: 600;
+    height: 43px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #FFFFFF !important;
+    border: 1px solid #025a27;
+    color: #025a27;
+    padding: 8px 15px;
+    margin: 4px;
+}
+
+#button-reg:hover,
+#button-reg:active,
+#button-reg:focus{
+    background-color: #2D2D2D !important;
+}
+
+#button-canc:hover,
+#button-canc:active,
+#button-canc:focus{
+    background-color: rgba(236, 185, 50, 1) !important;
+}
+
+#button-obt-clave:hover,
+#button-obt-clave:active,
+#button-obt-clave:focus{
+    background-color: rgba(236, 185, 50, 1) !important;
+    color: #FFFFFF;
+    border: none !important;
+}
+
+#button-obt-clave:disabled,
+#button-obt-clave[disabled]{
+    border: none;
+    color: #2D2D2D;
+    background-color: #cccccc !important;
+    cursor: no-drop;
+    font-family: 'open-sans-light';
+    font-size: 14px !important;
+    font-weight: 600;
+    height: 43px;
+    width: 200px;
+    padding: 8px 15px;
+    margin: 4px;
+}
+
+/*#button-reg:disabled,
+#button-reg[disabled],
+#button-canc:disabled,
+#button-canc[disabled]{
+  border: 1px solid #2D2D2D !important;
+  color: #2D2D2D !important;
+  background-color: #cccccc !important;
+}*/
+
+.link-ext-form{
+    text-decoration: none;
+    color: black;
+    text-align: right;
+
+}
+
+.link-ext-form:hover,
+.link-ext-form:active,
+.link-ext-form:focus{
+    text-decoration: underline;
+    color: rgba(236, 185, 50, 1);
+
+}
+
+.text-announcm{
+    border: 1px solid #025a27;
+    color: #025a27;
+    font-family: 'open-sans-light';
+    background-color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+
+.text-announcm:hover,
+.text-announcm:active,
+.text-announcm:focus{
+    background-color: #025a27;
+    color: #FFF;
+    border: none;
+
+}
+
+hr {
+    color: rgba(236, 185, 50, 1) !important;
+}
+
+.img-logo-wp{
+    width: 90px;
+    height: 90px;
+}
+
+h4{
+    font-family: 'open-sans-light' !important;
+    color: #025a27 !important;
+
+}

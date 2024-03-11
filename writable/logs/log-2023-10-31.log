@@ -1,0 +1,166 @@
+CRITICAL - 2023-10-31 14:48:49 --> Undefined property: App\Controllers\SubCategoria::$input
+in APPPATH\Controllers\SubCategoria.php on line 25.
+ 1 APPPATH\Controllers\SubCategoria.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\SubCategoria::$input', 'C:\\xampp\\htdocs\\turismo\\app\\Controllers\\SubCategoria.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:53:28 --> Undefined variable $id
+in APPPATH\Views\subcategoria\edit.php on line 4.
+ 1 APPPATH\Views\subcategoria\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 14:56:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Models\subcategoria_model.php on line 33.
+ 1 APPPATH\Controllers\SubCategoria.php(27): App\Models\subcategoria_model->getSubCategoria('1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 15:14:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+in APPPATH\Models\subcategoria_model.php on line 17.
+ 1 APPPATH\Models\subcategoria_model.php(40): App\Models\subcategoria_model->execQuery('SELECT Concat(\'r_\',sc.id) as dt_rowid, sc.id, sc.categoria_id, sc.descripcion, c.descripcion as categoria
+                FROM subcategoria_lugar sc, categoria_lugar c
+                WHERE c.id = sc.categoria_id and sc.id=1
+                order by c.id')
+ 2 APPPATH\Controllers\SubCategoria.php(27): App\Models\subcategoria_model->getSubCategoria('1')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 15:24:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\subcategoria_model.php on line 42.
+ 1 APPPATH\Controllers\SubCategoria.php(27): App\Models\subcategoria_model->getSubCategoria('1')
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:01:37 --> Undefined array key "id"
+in APPPATH\Views\subcategoria\edit.php on line 4.
+ 1 APPPATH\Views\subcategoria\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:08:09 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\turismo\app\Controllers\SubCategoria.php on line 29
+in SYSTEMPATH\Common.php on line 1178.
+ 1 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:09:15 --> Undefined variable $subcategoria
+in APPPATH\Views\subcategoria\edit.php on line 31.
+ 1 APPPATH\Views\subcategoria\edit.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subcategoria', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php', 31)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:09:45 --> Undefined variable $ponencia
+in APPPATH\Views\subcategoria\edit.php on line 45.
+ 1 APPPATH\Views\subcategoria\edit.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ponencia', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:09:56 --> Undefined variable $pais
+in APPPATH\Views\subcategoria\edit.php on line 79.
+ 1 APPPATH\Views\subcategoria\edit.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pais', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php', 79)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\subcategoria\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 5 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('1')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:11:07 --> syntax error, unexpected token ";"
+in APPPATH\Views\subcategoria\edit.php on line 80.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 3 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:11:28 --> syntax error, unexpected token ";"
+in APPPATH\Views\subcategoria\edit.php on line 80.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 3 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:11:39 --> syntax error, unexpected token ";"
+in APPPATH\Views\subcategoria\edit.php on line 80.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 3 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 16:11:40 --> syntax error, unexpected token ";"
+in APPPATH\Views\subcategoria\edit.php on line 80.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 3 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('2')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 19:14:59 --> Undefined constant "id"
+in APPPATH\Views\subcategoria\edit.php on line 61.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 4 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('16')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 19:15:01 --> Undefined constant "id"
+in APPPATH\Views\subcategoria\edit.php on line 61.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 4 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('16')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 19:15:12 --> Undefined constant "id"
+in APPPATH\Views\subcategoria\edit.php on line 61.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/edit', [], true)
+ 4 APPPATH\Controllers\SubCategoria.php(29): view('subcategoria/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->editSubCategoria('16')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-31 19:30:58 --> Too few arguments to function App\Controllers\Categoria::getjson_ListadoCategorias(), 0 passed in C:\xampp\htdocs\turismo\system\CodeIgniter.php on line 942 and exactly 1 expected
+in APPPATH\Controllers\Categoria.php on line 23.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

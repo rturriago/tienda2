@@ -1,0 +1,127 @@
+CRITICAL - 2023-10-30 00:05:45 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\panel.php on line 168.
+ 1 APPPATH\Views\panel.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'C:\\xampp\\htdocs\\turismo\\app\\Views\\panel.php', 168)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\turismo\\app\\Views\\panel.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('panel', [], true)
+ 5 APPPATH\Controllers\Categoria.php(9): view('panel')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 00:06:23 --> syntax error, unexpected token ";"
+in APPPATH\Views\panel.php on line 168.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('panel', [], true)
+ 3 APPPATH\Controllers\Categoria.php(9): view('panel')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 02:29:06 --> Cannot call constructor
+in APPPATH\Controllers\Categoria.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Categoria->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 02:32:57 --> Class "App\Controllers\CategoriaModel" not found
+in APPPATH\Controllers\Categoria.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 02:33:19 --> Class "App\Models\categoria_model" not found
+in APPPATH\Controllers\Categoria.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 02:33:33 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(184): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(23): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#3 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(23): App\Models\categoria_model->getListado()
+#4 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-10-30 02:33:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Models\categoria_model.php(18): CodeIgniter\Database\BaseConnection->query('SELECT * FROM categoria_lugar order by id;')
+ 3 APPPATH\Controllers\Categoria.php(23): App\Models\categoria_model->getListado()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 03:45:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\categoria_model.php on line 19.
+ 1 APPPATH\Controllers\Categoria.php(25): App\Models\categoria_model->getListado()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 03:45:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\categoria_model.php on line 19.
+ 1 APPPATH\Controllers\Categoria.php(25): App\Models\categoria_model->getListado()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-30 03:47:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM  order by id' at line 1 in C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\turismo\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT FROM  or...', 0)
+#1 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT FROM  or...')
+#2 C:\xampp\htdocs\turismo\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT FROM  or...')
+#3 C:\xampp\htdocs\turismo\app\Models\categoria_model.php(18): CodeIgniter\Database\BaseConnection->query('SELECT FROM  or...')
+#4 C:\xampp\htdocs\turismo\app\Controllers\Categoria.php(25): App\Models\categoria_model->getListado()
+#5 C:\xampp\htdocs\turismo\system\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+#6 C:\xampp\htdocs\turismo\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+#7 C:\xampp\htdocs\turismo\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\turismo\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-10-30 03:47:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM  order by id' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\categoria_model.php(18): CodeIgniter\Database\BaseConnection->query('SELECT FROM  order by id;')
+ 2 APPPATH\Controllers\Categoria.php(25): App\Models\categoria_model->getListado()
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 03:47:39 --> Call to a member function result() on array
+in APPPATH\Controllers\Categoria.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Categoria->getjson_ListadoCategorias()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categoria))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 14:15:26 --> Invalid file: "subcategoria/listado.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('subcategoria/listado.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('subcategoria/listado', [], true)
+ 3 APPPATH\Controllers\SubCategoria.php(19): view('subcategoria/listado')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->listado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-30 14:16:03 --> Class "App\Controllers\subcategoria_model" not found
+in APPPATH\Controllers\SubCategoria.php on line 24.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SubCategoria->getjson_ListadoSubCategorias()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SubCategoria))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

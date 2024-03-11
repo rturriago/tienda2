@@ -1,0 +1,209 @@
+
+/**
+ * Para adaptar el formulario de inscripción a pantallas pequeñas
+ **/
+@media (min-width:700px){ 
+  #modalNewRegContent{
+      max-width: 70%;
+  }
+}
+@media (max-width:700px){ 
+  #modalNewRegContent{
+      max-width: 100%;
+  }
+}
+
+.main-h1 {
+    margin: 0 0 50px 0;
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #1c46d1;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.9);
+    -webkit-text-stroke: 1px #ffffff;  
+}
+
+.opacity-box {
+    background-color: rgba(0,18,87,0.8);
+    /* opacity: 0.6; */
+    width: 80%;
+    /* height: 70px; */
+    border-color: #ffffff;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    color: #ffffff;
+    text-align: justify;
+}
+
+/* Cards originales de bootstrap */
+.tr-card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff6;
+  background-clip: border-box;
+  border: 1px solid #63be64;
+  border-radius: 0.25rem;
+}
+
+.tr-card > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.tr-card > .list-group {
+  border-top: inherit;
+  border-bottom: inherit;
+}
+
+.tr-card > .list-group:first-child {
+  border-top-width: 0;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.tr-card > .list-group:last-child {
+  border-bottom-width: 0;
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.tr-card > .card-header + .list-group,
+.tr-card > .list-group + .card-footer {
+  border-top: 0;
+}
+
+.tr-card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0.5rem;
+}
+
+.tr-card-title {
+  margin-bottom: 0.75rem;
+}
+
+.tr-card-subtitle {
+  margin-top: -0.375rem;
+  margin-bottom: 0;
+}
+
+.tr-card-text:last-child {
+  margin-bottom: 0;
+}
+
+.tr-card-link:hover {
+  text-decoration: none;
+}
+
+.tr-card-link + .card-link {
+  margin-left: 1.25rem;
+}
+
+.tr-card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.tr-card-header:first-child {
+  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.tr-card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.tr-card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.tr-card-header-tabs {
+  margin-right: -0.625rem;
+  margin-bottom: -0.75rem;
+  margin-left: -0.625rem;
+  border-bottom: 0;
+}
+
+.tr-card-header-pills {
+  margin-right: -0.625rem;
+  margin-left: -0.625rem;
+}
+
+.tr-card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+  border-radius: calc(0.25rem - 1px);
+}
+
+.tr-card-img,
+.tr-card-img-top,
+.tr-card-img-bottom {
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.tr-card-img,
+.tr-card-img-top {
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.tr-card-img,
+.tr-card-img-bottom {
+  border-bottom-right-radius: calc(0.25rem - 1px);
+  border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.tr-card-deck .card {
+  margin-bottom: 15px;
+}
+
+.tr-card-margin {
+  margin-top: 1em;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
+.border-secondary {
+  border-color: #6c757d !important;
+}
+
+.hidden-md-down {
+  color: white; 
+  font-size: 0.8em;
+  padding: 3px;
+  line-height: 1.2em;
+}
+
+.caja { 
+  width: 80%;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+  color: #ffffff; 
+  font-size: 18px; 
+  font-weight: 400; 
+  text-align: center; 
+  background: #00954896; 
+  margin: 0 0 25px; 
+  overflow: hidden; 
+  padding: 20px; 
+  border-radius: 10px 10px 10px 10px; 
+  -moz-border-radius: 10px 10px 10px 10px; 
+  -webkit-border-radius: 10px 10px 10px 10px; 
+  border: 1px solid #fff;
+}
